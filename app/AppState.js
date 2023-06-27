@@ -19,6 +19,8 @@ class ObservableAppState extends EventEmitter {
   /** @type {import('./models/Car.js').Car[]} */
   cars = []
 
+  /** @type {import('./models/House.js').House[]} */
+  houses = []
 
   // Used to load initial data
   init() {
